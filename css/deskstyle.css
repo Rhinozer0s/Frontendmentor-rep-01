@@ -1,0 +1,21 @@
+@media screen and (min-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  body .mainbody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 60rem;
+    border-radius: 2rem;
+    box-shadow: 0.8rem 1.6rem 4.8rem rgba(48, 59, 90, 0.3);
+    border-radius: 3.2rem;
+  }
+  body .mainbody .section__result {
+    border-radius: 3.2rem;
+  }
+}
+
+/*# sourceMappingURL=deskstyle.css.map */
